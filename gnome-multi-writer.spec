@@ -1,12 +1,12 @@
 Summary:	Write an ISO file to multiple USB devices at once
 Summary(pl.UTF-8):	Zapis pliku obrazu ISO na wiele urządzeń USB jednocześnie
 Name:		gnome-multi-writer
-Version:	3.18.0
+Version:	3.22.1
 Release:	1
 License:	GPL v2
 Group:		Applications/File
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-multi-writer/3.18/%{name}-%{version}.tar.xz
-# Source0-md5:	5ab919c4dfe513d53c0bda70361c2dda
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-multi-writer/3.22/%{name}-%{version}.tar.xz
+# Source0-md5:	84d19bf972625270d427d82e589e1a87
 URL:		https://wiki.gnome.org/Apps/MultiWriter
 # appstream-util
 BuildRequires:	appstream-glib
@@ -20,6 +20,7 @@ BuildRequires:	intltool >= 0.50.0
 BuildRequires:	libcanberra-gtk3-devel >= 0.10
 BuildRequires:	libgusb-devel >= 0.2.7
 BuildRequires:	pkgconfig
+BuildRequires:	polkit-devel
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	udev-glib-devel
 BuildRequires:	udisks2-devel
@@ -81,7 +82,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS MAINTAINERS NEWS README.md
 %attr(755,root,root) %{_bindir}/gnome-multi-writer
-%attr(755,root,root) %{_bindir}/gnome-multi-writer-probe
+%attr(755,root,root) %{_libdir}/gnome-multi-writer-probe
 %{_datadir}/appdata/org.gnome.MultiWriter.appdata.xml
 %{_datadir}/glib-2.0/schemas/org.gnome.MultiWriter.gschema.xml
 %{_datadir}/polkit-1/actions/org.gnome.MultiWriter.policy
