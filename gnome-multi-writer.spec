@@ -1,12 +1,12 @@
 Summary:	Write an ISO file to multiple USB devices at once
 Summary(pl.UTF-8):	Zapis pliku obrazu ISO na wiele urządzeń USB jednocześnie
 Name:		gnome-multi-writer
-Version:	3.22.1
+Version:	3.24.0
 Release:	1
 License:	GPL v2
 Group:		Applications/File
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-multi-writer/3.22/%{name}-%{version}.tar.xz
-# Source0-md5:	84d19bf972625270d427d82e589e1a87
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-multi-writer/3.24/%{name}-%{version}.tar.xz
+# Source0-md5:	692a8350f2e3eebb11cdf2d4b8e863cc
 URL:		https://wiki.gnome.org/Apps/MultiWriter
 # appstream-util
 BuildRequires:	appstream-glib
