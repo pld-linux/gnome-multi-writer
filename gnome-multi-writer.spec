@@ -22,6 +22,7 @@ BuildRequires:	meson >= 0.46.0
 BuildRequires:	ninja >= 1.5
 BuildRequires:	pkgconfig
 BuildRequires:	polkit-devel
+BuildRequires:	rpmbuild(macros) >= 1.736
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	udev-glib-devel
 BuildRequires:	udisks2-devel
