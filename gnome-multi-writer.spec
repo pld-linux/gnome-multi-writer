@@ -5,7 +5,7 @@ Version:	3.32.1
 Release:	1
 License:	GPL v2
 Group:		Applications/File
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-multi-writer/3.32/%{name}-%{version}.tar.xz
+Source0:	https://download.gnome.org/sources/gnome-multi-writer/3.32/%{name}-%{version}.tar.xz
 # Source0-md5:	6eba6f5c86d18abc5d3b4afeb879f543
 URL:		https://wiki.gnome.org/Apps/MultiWriter
 # appstream-util
